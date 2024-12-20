@@ -1,0 +1,65 @@
+.sidenav a {
+  text-decoration: none;
+}
+
+.nav-wrapper > a {
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+}
+
+.nav-wrapper > a:hover {
+  color: white;
+}
+
+.hvr-grow {
+  text-decoration: none;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  text-decoration: none;
+  color: white;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: "red" !important;
+}
+
+@media (max-width: 992px) {
+  .nav-wrapper > a:hover {
+    color: black;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-wrapper > a {
+    padding-left: 35px;
+  }
+}
+
+nav {
+  background-color: #03a9f4;
+}
+
+.page-footer {
+  background-color: #03a9f4;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #ff5722;
+}
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    font-size: 1.7rem;
+  }
+}
+
+.card .card-image img {
+  height: 200px;
+}
+.fcarousel .carousel .carousel-item img {
+  height: 300px;
+  object-fit: cover;
+}
